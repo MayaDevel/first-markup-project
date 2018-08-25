@@ -1,0 +1,55 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Sans+Pro');*/
+@font-face{
+    font-family: 'wf_SegoeUILight';
+    /*src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot');*/
+    src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot?#iefix') format('embedded-opentype'),
+    url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.woff') format('woff'),
+    /*url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.ttf') format('truetype'),*/
+    url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.svg#web') format('svg');
+}
+
+small {
+    color: #828282;
+}
+strong {
+    font-size: 20px;
+}
+
+.applications__form:not(small) {
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    font-family: 'wf_SegoeUILight', sans-serif;
+    font-size: 16px;
+    height: 348px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin: 284px auto;
+    padding-left: 20px;
+    width: 520px;
+}
+.button {
+    background: #007BFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'wf_SegoeUILight', sans-serif;
+    font-size: 15px;
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+    padding: 9px 13px 9px 13px;
+}
+.input {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-family: 'wf_SegoeUILight', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    /*padding: 10px 0 10px 14px*/
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-top: 9px;
+    width: 480px;
+}
+.check {
+    /*display: none;*/
+}
