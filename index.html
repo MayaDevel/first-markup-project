@@ -7,24 +7,28 @@
 </head>
 <body>
 
-    <div class="applications__form"><br>
-        <strong>Вход в личный кабинет</strong><p>
-        Логин
-        <form>
+    <div class="form"><br>
+        <strong class="form__cabinet">Вход в личный кабинет</strong><p>
+        <span>Логин</span>
+        <form class="form__placeholder">
             <p>
-                <input class="input" name="login" placeholder="Введите логин">
+                <input class="form__placeholder-input" name="login" placeholder="Введите логин">
             </p>
         </form>
-        <small>Логин должен содежать только символы латиских букв</small><p>
-        Пароль<br>
+        <small class="form__logout">Логин должен содежать только символы латиских букв</small><p>
+        <p>Пароль</p>
+        <form class="form__placeholder">
+            <p>
+                <input class="form__placeholder-input" name="pass" type="password" placeholder="Введите пароль"><p>
+        </form>
+        <form class="form__box">
+                <input class="form__box-check" type="checkbox" name="answer" value="a3">
+                <span>Запомнить меня</span>
+            </p>
+        </form>
         <form>
             <p>
-                <input class="input" name="pass" type="password" placeholder="Введите пароль"><p>
-                <input class="check" type="checkbox" name="answer" value="a3">
-                Запомнить меня
-            </p>
-            <p>
-                <input class="button" type="submit" value="Войти">
+                <input class="form__button" type="submit" value="Войти">
             </p>
         </form>
     </div>
